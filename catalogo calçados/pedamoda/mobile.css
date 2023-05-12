@@ -1,0 +1,172 @@
+@media(max-width: 2561px){
+    .elipse{
+        height: 7vh;   
+    }
+    #botao {
+        background-color: #149100;
+        border: none;
+        padding: 15px;
+        border-radius: 15px;
+        color: white;
+        margin-left: 1400px;
+        margin-top: 30px;
+    }
+
+}
+@media(max-width: 1441px){
+    #header #barra_pesquisa{
+        margin-left: 424px;
+    }
+
+    .elipse{
+        height: 10vh;  
+    }
+    .elipse p {
+        text-align: center;
+        padding-top: 72px;
+        color: white;
+    }
+    #botao {
+        background-color: #149100;
+        border: none;
+        padding: 15px;
+        border-radius: 15px;
+        color: white;
+        margin-left: 754px;
+        margin-top: 30px;
+    }
+    /* main {
+        background-color: whitesmoke;
+        height: 59vh;
+        width: 68.9vw;
+    }
+    header{
+        width: 68.9vw;
+
+    } */
+}
+
+@media(max-width: 1025px){
+    main {
+        background-color: whitesmoke;
+        height: 77vh;
+    }
+    #header #barra_pesquisa {
+        margin-left: 271px;
+    }
+
+    .elipse p {
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+    }
+    .elipse {
+        height: 9vh;
+    }
+
+    #botao {
+        background-color: #149100;
+        border: none;
+        padding: 15px;
+        border-radius: 15px;
+        color: white;
+        margin-left: 491px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 769px){
+    #header #barra_pesquisa {
+        margin-left: 263px;
+    }
+    #header #barra_pesquisa {
+        height: 47px;
+        width: 193px;
+    }
+    #botao {
+        margin-left: 336px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    main {
+        background-color: whitesmoke;
+        height: 104vh;
+    }
+    .elipse {
+        height: 8vh;
+    }
+    .elipse p {
+        text-align: center;
+        padding-top: 29px;
+        color: white;
+    }
+}
+
+@media(max-width: 426px){
+    #header #barra_pesquisa {
+        height: 0px;
+        width: 0px;
+    }
+    
+    #botao {
+        margin-left: 153px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .modificar {
+        display: grid;
+        grid-template-rows: repeat(6fr);
+        box-shadow: rgba(rgb(21, 5, 5), rgb(21, 35, 21), rgb(20, 20, 29), alpha);
+        width: 162px;
+        border-radius: 20px;
+        background-color: white;
+        margin-left: 60px;
+        padding: 20px;
+    }
+    #botoes {
+        margin-left: 78px;
+    }
+    .modificar #nome input, .modificar #preco input {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .modificar #img {
+        text-align: center;
+        height: 200px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        width: 155px;
+        align-items: center;
+        margin-left: 5px;
+    }
+    #des p {
+        margin-top: 20px;
+        width: 167px;
+    }
+    .modificar #nome input, .modificar #preco input {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    main{
+        height: 108vh;
+
+    }
+    
+    .elipse {
+        height: 6vh;
+
+
+    }
+    .elipse p {
+        text-align: center;
+        padding-top: 21px;
+        color: white;
+        font-size: 0.7em;
+    }
+
+}
+
+
+
